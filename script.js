@@ -121,7 +121,7 @@ let candidato = {
         name: 'ANTONIO',
         nameComplete: 'ANTONIO PACHECO',
         broken: 'TICO',
-        img: "url('./images/antonio.webp')",
+        img: "url('./images/')",
     },
 
     fernandes: {
