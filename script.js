@@ -32,25 +32,25 @@ let img = document.getElementById('imgPresident');
 let legend = document.getElementById('legend');
 
 function showCandidate() {
-    if (num1.value == '1' && num2.value == '3') {
-        nameTitle.innerText = candidato.pascoal.name;
-        nameCandidate.innerHTML = `name: <b>${candidato.pascoal.nameComplete}</b>`;
-        broken.innerHTML = `Partido: <b>${candidato.pascoal.broken}</b>`;
-        img.style.backgroundImage = candidato.pascoal.img;
+    if (num1.value == '1' && num2.value == '8') {
+        nameTitle.innerText = candidato.antonio.name;
+        nameCandidate.innerHTML = `Nome: <b>${candidato.antonio.nameComplete}</b>`;
+        broken.innerHTML = `Partido: <b>${candidato.antonio.broken}</b>`;
+        img.style.backgroundImage = candidato.atonio.img;
         legend.style.display = 'flex';
     }
 
-    else if (num1.value == '2' && num2.value == '2') {
+    else if (num1.value == '3' && num2.value == '3') {
         nameTitle.innerText = candidato.fernandes.name;
-        nameCandidate.innerHTML = `name: <b>${candidato.fernandes.nameComplete}</b>`;
+        nameCandidate.innerHTML = `Nome: <b>${candidato.fernandes.nameComplete}</b>`;
         broken.innerHTML = `Partido: <b>${candidato.fernandes.broken}</b>`;
         img.style.backgroundImage = candidato.fernandes.img;
         legend.style.display = 'flex';
     }
 
-    else if (num1.value == '1' && num2.value == '2') {
+    else if (num1.value == '5' && num2.value == '2') {
         nameTitle.innerText = candidato.pascoal.name;
-        nameCandidate.innerHTML = `name: <b>${candidato.pascoal.nameComplete}</b>`;
+        nameCandidate.innerHTML = `Nome: <b>${candidato.pascoal.nameComplete}</b>`;
         broken.innerHTML = `Partido: <b>${candidato.pascoal.broken}</b>`;
         img.style.backgroundImage = candidato.pascoal.img;
         legend.style.display = 'flex';
@@ -117,24 +117,24 @@ function voteWhite() {
 
 let candidato = {
 
-    pascoal: {
-        name: 'PASCOAL FERNANDES',
-        nameComplete: 'PASCOAL FERNANDES COSTA',
-        broken: 'PT',
-        img: "url('./images/lula.jpg')",
+    antonio: {
+        name: 'ANTONIO',
+        nameComplete: 'ANTONIO PACHECO',
+        broken: 'TICO',
+        img: "url('./images/antonio.webp')",
     },
 
     fernandes: {
         name: 'FERNANDES',
         nameComplete: 'FERNANDES COSTA',
-        broken: 'PSL',
+        broken: 'SPB',
         img: "url('./images/fernandes.jpg')",
     },
 
     pascoal: {
         name: 'PASCOAL FERNANDES',
         nameComplete: 'PASCOAL FERNANDES COSTA',
-        broken: 'PDT',
+        broken: 'BPDT',
         img: "url('./images/pascoal.jpg')",
     },
 }
