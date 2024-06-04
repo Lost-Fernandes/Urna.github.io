@@ -36,7 +36,7 @@ function showCandidate() {
         nameTitle.innerText = candidato.antonio.name;
         nameCandidate.innerHTML = `Nome: <b>${candidato.antonio.nameComplete}</b>`;
         broken.innerHTML = `Partido: <b>${candidato.antonio.broken}</b>`;
-        img.style.backgroundImage = candidato.atonio.img;
+        img.style.backgroundImage = candidato.antonio.img;
         legend.style.display = 'flex';
     }
 
